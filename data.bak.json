@@ -1,0 +1,130 @@
+{
+  "picBed": {
+    "current": "gitee",
+    "uploader": "gitee",
+    "smms": {
+      "token": ""
+    },
+    "qiniu": {
+      "_configName": "Default",
+      "_id": "7bab63c1-ebda-4bab-b771-5a1c864e54e1",
+      "_createdAt": 1748769188280,
+      "_updatedAt": 1748769188280
+    },
+    "gitee": {
+      "_configName": "gitee",
+      "_id": "c0f4154d-8c6f-498d-8db4-03a1123fa52f",
+      "_createdAt": 1748770985533,
+      "_updatedAt": 1748773991429,
+      "repo": "AnSirG/pic-list",
+      "branch": "",
+      "token": "110d62d0721a292cb0cf76fc5a0aa49f",
+      "path": "",
+      "customPath": "",
+      "customUrl": ""
+    },
+    "upyun": {
+      "_configName": "Default",
+      "_id": "c304830d-3c64-42c7-8192-aac9022a9a8a",
+      "_createdAt": 1748770987626,
+      "_updatedAt": 1748770987626
+    },
+    "123pan": {
+      "_configName": "Default",
+      "_id": "790e1445-6da5-4a57-a794-bf9801d58b38",
+      "_createdAt": 1748771077098,
+      "_updatedAt": 1748771077098
+    }
+  },
+  "settings": {
+    "shortKey": {
+      "picgo:upload": {
+        "enable": true,
+        "key": "CommandOrControl+Shift+P",
+        "name": "upload",
+        "label": "QUICK_UPLOAD"
+      },
+      "picgo-plugin-123pan:quickUpload123pan": {
+        "enable": true,
+        "name": "quickUpload123pan",
+        "label": "Quick Upload from Clipboard",
+        "key": "Ctrl+Alt+1"
+      }
+    },
+    "showUpdateTip": true,
+    "privacyEnsure": true,
+    "autoRename": true,
+    "checkBetaUpdate": false,
+    "manualPageOpen": "window",
+    "deleteCloudFile": true,
+    "uploadNotification": true,
+    "server": {
+      "port": 36677,
+      "host": "0.0.0.0",
+      "enable": true
+    },
+    "isListeningClipboard": false
+  },
+  "needReload": false,
+  "uploader": {
+    "qiniu": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "7bab63c1-ebda-4bab-b771-5a1c864e54e1",
+          "_createdAt": 1748769188280,
+          "_updatedAt": 1748769188280
+        }
+      ],
+      "defaultId": "7bab63c1-ebda-4bab-b771-5a1c864e54e1"
+    },
+    "gitee": {
+      "configList": [
+        {
+          "_configName": "gitee",
+          "_id": "c0f4154d-8c6f-498d-8db4-03a1123fa52f",
+          "_createdAt": 1748770985533,
+          "_updatedAt": 1748773991429,
+          "repo": "AnSirG/pic-list",
+          "branch": "",
+          "token": "110d62d0721a292cb0cf76fc5a0aa49f",
+          "path": "",
+          "customPath": "",
+          "customUrl": ""
+        }
+      ],
+      "defaultId": "c0f4154d-8c6f-498d-8db4-03a1123fa52f"
+    },
+    "upyun": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "c304830d-3c64-42c7-8192-aac9022a9a8a",
+          "_createdAt": 1748770987626,
+          "_updatedAt": 1748770987626
+        }
+      ],
+      "defaultId": "c304830d-3c64-42c7-8192-aac9022a9a8a"
+    },
+    "123pan": {
+      "configList": [
+        {
+          "_configName": "Default",
+          "_id": "790e1445-6da5-4a57-a794-bf9801d58b38",
+          "_createdAt": 1748771077098,
+          "_updatedAt": 1748771077098
+        }
+      ],
+      "defaultId": "790e1445-6da5-4a57-a794-bf9801d58b38"
+    }
+  },
+  "picgoPlugins": {
+    "picgo-plugin-gitee-uploader": true,
+    "picgo-plugin-123pan": true
+  },
+  "picgo-plugin-gitee-uploader": {
+    "lastSync": "2025-06-01 06:38:26"
+  },
+  "debug": true,
+  "PICGO_ENV": "GUI"
+}
